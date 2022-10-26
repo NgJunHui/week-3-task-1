@@ -1,13 +1,33 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #E9E9E9;
+}
+div{
+  text-align: center;
+}
+h1{
+  font-style: italic;
+  padding: 50px 0px;
+  color:blueviolet
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+  font-size: 20px;
+  margin:15px 0px;
+}
+
+.jokes-title{
+  font-weight: bold;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
